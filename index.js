@@ -18,7 +18,7 @@ app.listen((5000), () => {
 //connect to db
 mongoose.connect(URI, {useNewUrlParser:true, useUnifiedTopology:true}, (err) =>{
     if(!err){
-        console.log("Database Connected Successfully");
+        console.log("Database Connected Successfull");
     }else{
         console.log("mongoDB ERR: "+err);
     }
